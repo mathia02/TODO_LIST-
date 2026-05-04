@@ -1,0 +1,106 @@
+/* style.css */
+
+body {
+    background-image: url(e.gif);
+        margin: 0;
+    padding: 20px;
+    color:black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 25px;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 60px;
+    letter-spacing: 2px;
+       font-family: Curlz MT;
+     text-shadow: 0 0 10px red;
+}
+
+input {
+    padding: 12px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-left: 120px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: none;
+    background: linear-gradient(90deg,blue,red);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.4s ease, background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(90deg, red, blue black, white);
+    transform: scale(1.05);
+}
+
+h2 {
+    margin-top: 30px;
+    color: black;
+    /* border-bottom: 3px solid white; */
+    padding-bottom: 5px;
+    font-size: 35px;
+    font-family: Times New Roman;
+    text-shadow: 0 0 3px #ff0000;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: Times New Roman
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    border:  white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+li:hover {
+   
+    transform: translateX(8px);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: black;
+    /* background-color: white; */
+}
+
+#tasklist, #completedlist {
+    margin-top: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+#result{
+    margin-top: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+    justify-content: center;
+    
+}
+
+.six{
+    font-size: 30px; 
+    color:white;
+    text-shadow: 2px 2px 5px red;
+}

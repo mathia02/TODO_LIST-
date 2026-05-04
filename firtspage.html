@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME PAGE</title>
+    
+</head>
+<body>
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url("nar.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 100px;
+text-shadow: 2px 2px 5px red;
+ 
+}
+
+
+.one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  
+}
+
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+   font-family: Curlz MT;
+  
+}
+
+
+button {
+  padding: 15px 30px;
+  margin: 10px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(135deg, #4CAF50, #2196F3);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+  transition: transform 0.3s ease, background 0.3s ease;
+  cursor: pointer;
+  font-family: Curlz MT;
+}
+
+
+button:hover {
+  background: linear-gradient(135deg, #FF5722, #9C27B0);
+  transform: scale(1.05);
+}
+ 
+</style>
+
+<div class ="one">
+    <h1 >WELCOME TO OUR TASK MANAGER  </h1>
+    
+    <button id="result" onclick="update()" href="file:///Z:/UT011406%20Project/TO%20DO%20APP.html">CLICK HERE</button>
+    </div>
+
+
+
+<script>
+let box=document.getElementById("result") ;
+
+function update() {
+
+    window.location.href="file:///Z:/UT011406%20Project/TO%20DO%20APP.html";
+}
+
+</script>
+
+
+
+
+
+
+</body>
+</html> 
